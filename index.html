@@ -1,0 +1,309 @@
+<html>
+<head>
+<title>Business Website</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-----NavigationBar---->
+<section id="nav-bar">
+ <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="https://www.a-cloud.co.kr" target="_blank"><img src="img/logoacloud.png"></a>
+  <a class="navbar-brand" href="https://www.matterport.com" target="_blank"><img src="img/logo.png"></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">HOME</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="#about">ABOUT US</a>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link" href="#services">SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#appcase">APPLICATIONS</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#price">PRICE PLANS</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="https://matterport.com/blog" target="_blank">BLOGS</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="https://www.a-cloud.co.kr/contact.html" target="_blank">CONTACT</a>
+      </li>
+    </ul>
+  </div>
+</nav>   
+</section> 
+
+<!-------Slider------->  
+<div id="slider">
+<div id="headerSlider" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+    <li data-target="#headerSlider" data-slide-to="1"></li>
+    <li data-target="#headerSlider" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block img-fluid" src="img/banner1.jpg">
+        <div class="carousel-caption">
+            <h5>Matterport는 이미 펼쳐진 Metaverse에서</h5>
+            <h5>여러분의 비지니스 Scale을 확장시켜 줍니다.</h5>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="img/banner2.jpg">
+        <div class="carousel-caption">
+            <h5>Matterport는 많은 사용자가 사용하고 있는</h5>
+            <h5>신뢰성 있는 Digital Twin 구축 툴 입니다.</h5>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="img/banner3.jpg">
+        <div class="carousel-caption">
+            <h5>Matterport를 사용하는 많은 고객들께서 자산 가치의</h5>
+            <h5>상승과 설비 관리의 편의성을 경험하고 있습니다.</h5>
+        </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+
+    <!--------Services------->
+    <section id="services">
+        <div class="container">
+            <h1>Our Services</h1>
+            <div class="row services">
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                    <i class="fa fa-cloud-upload"></i>
+                    </div>
+                    <h3>AWS Cloud</h3>
+                    <p>세계 Cloud시장의 32%를 차지하고 있는 AWS Cloud를 활용해서, 귀하의 비지니스 내용과 인프라를 파악한 후,
+                        귀사의 기존 시스템을 진단해 개선방향을 도출합니다. 또한, 총소요비용(TCO) 분석과 POC(Proof of Concept) 테스팅을
+                        진행하여, 귀사에 Optimized Architecture를 제안합니다. </p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                    <i class="fa fa-cloud-download"></i>
+                    </div>
+                    <h3>Naver Cloud</h3>
+                    <p>국내 최대의 포털 사이트인 Naver가 운용 중인 클라우드를 활용하여, 귀하의 비지니스 내용과 인프라를 파악한 후,
+                        귀사의 기존 시스템을 진단해 개선방향을 도출합니다. 또한, 총소요비용(TCO) 분석과 POC(Proof of Concept) 테스팅을
+                        진행하여, 귀사에 Optimized Architecture를 제안합니다. </p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                    <i class="fa fa-stethoscope"></i>
+                    </div>
+                    <h3>Cloud Consulting</h3>
+                    <p>풍부한 경험을 바탕으로, 귀사의 On-Premise자산과 Cloud도입에 대한 필요점을 종합적으로 분석하고, 가장 합리적인
+                        Solution을 제안드립니다. 또한, 클라우드 이전에 대한 애플리케이션 분석/평가를 진행하여, 고객의 경영 현황에 
+                        적합한 클라우드 시스템을 제안합니다.
+                    </p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                    <i class="fa fa-building"></i>
+                    </div>
+                    <h3>Matterport Service</h3>
+                    <p>Matterport는 세계적으로 폭넓은 사용자 층이 있는 선도적인 공간 데이터의 디지털화 도구입니다. Metaverse 구축의
+                        신뢰성 있는 도구인 Matterport에 대한 상담을 통해, 귀하의 자산 가치를 높이도록 도와드립니다. 자산관리, 교육, 도소매업 공간의 
+                    디지털화 등에 폭넓게 활용되고 있습니다.</p>
+                </div>
+            </div>      
+        </div>     
+    </section>
+    
+
+<!------------Price Plans------->
+<section id="price">
+    <div class="container">
+        <h1>Price Plan</h1>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="single-price">
+                    <div class="price-head">
+                        <h2>Free</h2>
+                        <p>$0/<span>month</span></p>
+                    </div>
+                <div class="price-content">
+                <ul>
+                <li><i class="fa fa-check-circle"></i>1 Active Model</li>
+                <li><i class="fa fa-check-circle"></i>1 User</li>
+                <li><i class="fa fa-check-circle"></i>Smart Phone</li>
+                <li><i class="fa fa-check-circle"></i>360 Cameras</li>
+                <li><i class="fa fa-times-circle"></i>Pro Cameras</li>
+                <li><i class="fa fa-times-circle"></i>BLK360</li>
+                </ul>
+                </div>
+                <!-- <div class="price-button">
+                <a class="buy-btn" href="#">Join Free</a>
+                </div> -->
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="single-price">
+                    <div class="price-head">
+                        <h2>Starter</h2>
+                        <p>$9.<sup>99</sup>/<span>month</span></p>
+                    </div>
+                <div class="price-content">
+                <ul>
+                <li><i class="fa fa-check-circle"></i>5 Active Models</li>
+                <li><i class="fa fa-check-circle"></i>1 User</li>
+                <li><i class="fa fa-check-circle"></i>Smart Phone</li>
+                <li><i class="fa fa-check-circle"></i>360 Cameras</li>
+                <li><i class="fa fa-times-circle"></i>Pro Cameras</li>
+                <li><i class="fa fa-times-circle"></i>BLK360</li>
+                </ul>
+                </div>
+                <!-- <div class="price-button">
+                <a class="buy-btn" href="#">Buy Now</a>
+                </div> -->
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="single-price">
+                    <div class="price-head">
+                        <h2>Business</h2>
+                        <p>$69.<sup>00</sup>/<span>month</span></p>
+                    </div>
+                <div class="price-content">
+                <ul>
+                <li><i class="fa fa-check-circle"></i>25 Active Models</li>
+                <li><i class="fa fa-check-circle"></i>5 Users</li>
+                <li><i class="fa fa-check-circle"></i>Smart Phone</li>
+                <li><i class="fa fa-check-circle"></i>360 Cameras</li>
+                <li><i class="fa fa-check-circle"></i>Pro Cameras</li>
+                <li><i class="fa fa-check-circle"></i>BLK360</li>
+                </ul>
+                </div>
+                <!-- <div class="price-button">
+                <a class="buy-btn" href="#">Buy Now</a>
+                </div> -->
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="single-price">
+                    <div class="price-head">
+                        <h2>Advanced</h2>
+                        <p>$309.<sup>00</sup>/<span>month</span></p>
+                    </div>
+                <div class="price-content">
+                <ul>
+                <li><i class="fa fa-check-circle"></i>100 Active Models</li>
+                <li><i class="fa fa-check-circle"></i>20 Users</li>
+                <li><i class="fa fa-check-circle"></i>Smart Phone</li>
+                <li><i class="fa fa-check-circle"></i>360 Cameras</li>
+                <li><i class="fa fa-check-circle"></i>Pro Cameras</li>
+                <li><i class="fa fa-check-circle"></i>BLK360</li>
+                </ul>
+                </div>
+                <!-- <div class="price-button">
+                <a class="buy-btn" href="#">Buy Now</a>
+                </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!--Application Section-->
+    <section class="appcase" name="appcase" id="appcase">
+        <h1>분야별 적용사례</h1>
+        <br> <br>
+    
+        <div class="row">
+            <div class="appcase-col">
+                <img src="img/usecase1.jpg">
+                <h3>AEC(건축,엔지니어링,건설)분야 적용</h3>
+                <p>Matterport로 3D Scan을 통해, 건축, 엔지니어링, 건설 등의 토목작업을 손쉽게 수행할 수 있습니다.
+                    귀사에서 사용 중인 Autodesk 관련 제품을 완벽하게 지원합니다. 
+                </p>
+             </div>
+
+            <div class="appcase-col">
+                <img src="img/usecase2.png">
+                <h3>여행/숙박시설의 3D 구축</h3>
+                <p>계절형 숙박시설, 호텔, 콘도미니엄 사업자가 관련 시설을 3D로 구축해서 방문객에 몰입감을 제공할 경우, 더 높은 예약율을 
+                    확보할 수 있습니다. Vacasa사에 따르면 예약 증가율이 즉시 14% 이상 증가한 것으로 나타났다 합니다. </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="appcase-col">
+                <img src="img/usecase3.jpg">
+                <h3>자산관리</h3>
+                <p>Matterport로 구성된 3D Ditigal Twin을 활용하면, 자산의 상태 관리 뿐만 아니라, 자산의 유지 관리 또는 리모델링 
+                    계획을 효율적으로 수립할 수 있습니다. 
+                </p>
+            </div>
+            <div class="appcase-col">
+                <img src="img/usecase4.png">
+                <h3>보험 및 복구작업을 위한 3D 스캐닝</h3>
+                <p>보험회사나 보험계리사 또는 파손된 공간을 복원할 때, 원본 3D 자료를 활용할 수 있으며, 시간과 비용이 절감될 수
+                    있는 신속하고 투명한 문서 준비가 가능합니다. 또한, 평면도 등 복구를 위한 기본적인 도면 확보도 가능합니다.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="appcase-col">
+                <img src="img/usecase5.png">
+                <h3>3D 부동산 중개 Site구축</h3>
+                <p>Matterport의 3D 가상 투어를 활용하면, 실수요자에게 더욱 큰 몰입감을 가지도록 합니다. 실제 통계자료에 따르면, 3D 가상
+                    투어 체험을 한 방문객의 약 95%가 전화문의로 연계되었다는 통계가 있습니다. </p>
+            </div>
+            <div class="appcase-col">
+                <img src="img/usecase6.png">
+                <h3>3D 매장 운영</h3>
+                <p>소비재 매장의 전체적인 Layout과 어울어 진 몰입감있는 3D 매장을 운영할 수 있습니다. 건물의 구조에 맞게 전반적인 
+                    Layout의 재구성도 손쉽게 해 볼 수 있습니다.</p>
+            </div>
+        </div>
+    </section>
+    
+<!---------promo-------->
+<section id="promo">
+    <div class="container">
+        <p>지금 바로 연락주시면, 상세한 사용안내를 드립니다.</p>
+        <p>자영업 사장님을 위한 <span class="blinking">Special Promotion</span>을 경험하세요.</p>
+        <a href="https://www.a-cloud.co.kr/contact.html" class="btn btn-primary" target="_blank">Contact Us</a>
+    </div>
+
+    </section>
+    
+<!-----------Footer------->
+    <section id="footer">
+        <div class="container text-center">
+            <p>Prepared by <a href="https://www.a-cloud.co.kr" target="_blank">a-Cloud Company</a></p>
+        </div>
+    </section>
+    <!------Footer End------>
+    <script src="js/smooth-scroll.js"></script>
+    <script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+</body>
+</html>
